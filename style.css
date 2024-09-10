@@ -16,6 +16,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
 }
+
 
 .hero {
     color: #192E41;
@@ -125,6 +127,8 @@ nav{
     justify-content: center;
 }
 
+
+
 .name{
     height: 70px;
     /* width: auto; */
@@ -139,6 +143,8 @@ nav{
     text-decoration: none;
     padding: 35px 20px;
     font-size: 20px;
+    /* display: ;
+    align-items: center; */
 }
 
 #anchor:hover{
@@ -205,6 +211,7 @@ button{
     background-color: #8dbfdc;
     margin: 0 50px;
     color: #fff;
+    border-radius: 5px;
     /* flex-direction: row; */
     /* justify-items: space-between; */
 }
@@ -215,6 +222,7 @@ button{
     /* display: flex; */
     margin: 0 50px;
     color: #fff;
+    border-radius: 5px;
     
     /* flex-direction: row; */
     /* justify-items: space-between; */
@@ -224,6 +232,7 @@ button{
     width: 400px;
     background-color: #8dbfdc;
     color: #fff;
+    border-radius: 5px;
 
     /* display: flex; */
     /* flex-direction: row; */
@@ -242,6 +251,9 @@ button{
     padding: 5px;
 }
 
+i{
+    margin: 5px;
+}
 
 /* contact */
 .form{
@@ -250,4 +262,152 @@ button{
     align-items: center;
     justify-content: center;
     /* justify-items: center; */
+}
+img{
+    height: auto;
+    width: auto;
+}
+
+
+
+@media (min-width:350px) and (max-width: 700px) {
+    nav {
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+    #anchor{ 
+        /* display: block; */
+        width: 100%;
+        text-align: center;
+        padding: 35px 0;
+        margin: 0px;
+        font-size: 15px;
+    }
+
+    .name{
+        margin: 0px;
+        padding: 10px 20px 20px 0;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-h{
+        padding: 0 20px;
+
+    }
+    h1{
+        width: 150px;
+        font-size: 20px;
+    }
+    img{
+        height: 200px;
+        width: 220px;
+    }
+    .section1-1{
+        width: 400px;
+        font-size: 32px;
+    }
+    .section1-2{
+        width: 350px;
+    }
+    .button{
+        padding: 0;
+    }
+    
+    .section1-3{
+        display: block;
+       
+    }
+    .container1{
+        margin: 10px 0;
+        width: 400px;
+    }
+    .container2{
+        margin: 10px 0;
+    }
+    .container3{
+        margin: 10px 0;
+    }
+
+    footer{
+        margin-top: 10px;
+    }
+    #icon{
+        display: flex;
+    }
+    
+}
+
+
+@media (min-width:700px) and (max-width: 801px) {
+    nav {
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+    #anchor{ 
+        /* display: block; */
+        width: 100%;
+        text-align: center;
+        padding: 35px 0;
+        /* margin: 0px; */
+        font-size: 15px;
+    }
+
+    .name{
+        margin: 0px;
+        padding: 10px 20px 20px 0;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-h{
+        padding: 0 20px;
+
+    }
+    /* h1{
+        width: 150px;
+        font-size: 20px;
+    } */
+    img{
+        height: 300px;
+        width: 320px;
+    }
+    .section1-1{
+        width: 550px;
+        font-size: 40px;
+    }
+    .section1-2{
+        width: 550px;
+        font-size: 20px;
+    }
+    .button{
+        padding: 0;
+    }
+    
+    .section1-3{
+        display: block;
+       
+    }
+    .container1{
+        margin: 10px 0;
+        width: 550px;
+    }
+    .container2{
+        margin: 10px 0;
+        width: 550px;
+    }
+    .container3{
+        width: 550px;
+        margin: 10px 0;
+    }
+
+    footer{
+        margin-top: 10px;
+    }
+    #icon{
+        display: flex;
+    }
+    
 }
